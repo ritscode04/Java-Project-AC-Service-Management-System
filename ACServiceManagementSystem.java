@@ -90,5 +90,6 @@ public class ACServiceManagementSystem {
                     unit = acUnits.get(acUnitIndex - 1);
                     System.out.print("Appointment date (YYYY-MM-DD): ");
                     String appointmentDate = scanner.nextLine();
-                    Appointment appointment = new
+                    Appointment appointment = new ACServiceManagementSystem();
+                    
 
